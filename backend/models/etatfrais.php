@@ -14,7 +14,7 @@ use Yii;
  *
  * @property Mission $etat
  */
-class etatfrais extends \yii\db\ActiveRecord
+class EtatFrais extends \yii\db\ActiveRecord
 {
     /**
      * {@inheritdoc}

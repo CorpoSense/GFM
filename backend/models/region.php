@@ -13,7 +13,7 @@ use Yii;
  *
  * @property Parcours[] $parcours
  */
-class region extends \yii\db\ActiveRecord
+class Region extends \yii\db\ActiveRecord
 {
     /**
      * {@inheritdoc}

@@ -37,7 +37,12 @@ AppAsset::register($this);
     ]);
     $menuItems = [
         ['label' => 'Home', 'url' => ['/site/index']],
-        ['label' => 'Employe', 'url' => ['/employe/index']],
+        ['label' => 'Employer', 'url' => ['/employe/index']],
+        ['label' => 'Mission', 'url' => ['/mission/index']],
+        ['label' => 'Transport', 'url' => ['/transport/index']],
+        ['label' => 'Région', 'url' => ['/region/index']],
+        ['label' => 'Etat frais', 'url' => ['/etat-frais/index']],
+        ['label' => 'Utilisateur', 'url' => ['/user/index']],
     ];
     if (Yii::$app->user->isGuest) {
         $menuItems[] = ['label' => 'Login', 'url' => ['/site/login']];

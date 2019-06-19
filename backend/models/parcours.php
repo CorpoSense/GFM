@@ -16,7 +16,7 @@ use Yii;
  * @property Mission $mission
  * @property Mission $mission0
  */
-class parcours extends \yii\db\ActiveRecord
+class Parcours extends \yii\db\ActiveRecord
 {
     /**
      * {@inheritdoc}

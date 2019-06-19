@@ -32,7 +32,7 @@ use Yii;
  * @property Parcours[] $parcours1
  * @property Transport[] $transports
  */
-class mission extends \yii\db\ActiveRecord
+class Mission extends \yii\db\ActiveRecord
 {
     /**
      * {@inheritdoc}

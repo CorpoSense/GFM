@@ -14,7 +14,7 @@ use Yii;
  *
  * @property Mission $mission
  */
-class transport extends \yii\db\ActiveRecord
+class Transport extends \yii\db\ActiveRecord
 {
     /**
      * {@inheritdoc}
